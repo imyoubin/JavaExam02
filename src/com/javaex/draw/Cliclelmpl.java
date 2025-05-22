@@ -13,12 +13,15 @@ public class Cliclelmpl implements Drawable {
     }
 
     @Override
-    public void draw() {
-        System.out.println("원을 그렸습니다. "+"[ 반지름:  + radius]");
-    }
-
-    @Override
     public String toString() {
         return "CircleImpl [radius=" + radius + "]";
     }
+    @Override
+    public void draw() {
+    	System.out.println("--------------------------------------");
+        System.out.println("원을 그렸습니다. "+"[ 반지름:  + radius]");
+        System.out.println("--------------------------------------");
+    }
+
+   
 }

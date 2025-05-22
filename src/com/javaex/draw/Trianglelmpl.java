@@ -13,14 +13,16 @@ public class Trianglelmpl implements Drawable {
         this.width = width;
         this.height = height;
     }
-
-    @Override
-    public void draw() {
-        System.out.println("삼각형을 그렸습니다. "+"[가로: + width +  세로: height]");
-    }
-
     @Override
     public String toString() {
         return "TriangleImpl [width=" + width + ", height=" + height + "]";
     }
+
+    @Override
+    public void draw() {
+    	System.out.println("--------------------------------------");
+        System.out.println("삼각형을 그렸습니다. "+"[가로: + width +  세로: height]");
+        System.out.println("--------------------------------------");
+    }
+    
 }
